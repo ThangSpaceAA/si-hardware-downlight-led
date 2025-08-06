@@ -1,0 +1,3 @@
+[submodule "si-hardware-kicad-libraries"]
+	path = si-hardware-kicad-libraries
+	url = https://github.com/ThangSpaceAA/si-hardware-kicad-libraries.git
