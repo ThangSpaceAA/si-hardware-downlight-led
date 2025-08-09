@@ -625,6 +625,364 @@
 				)
 			)
 		)
+		(symbol "Device:Filter_EMI_LL"
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FL"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Filter_EMI_LL"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "EMI 2-inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "EMI filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "L_* L_CommonMode*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Filter_EMI_LL_0_1"
+				(circle
+					(center -3.048 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.048 1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -2.54 2.032)
+					(mid -2.032 1.5262)
+					(end -1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -2.032)
+					(mid -2.032 -1.5262)
+					(end -2.54 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 2.032)
+					(mid -1.016 1.5262)
+					(end -0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 -2.032)
+					(mid -1.016 -1.5262)
+					(end -1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 2.032)
+					(mid 0 1.5262)
+					(end 0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.032) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.508) (xy 2.54 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.032) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.032) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.508) (xy -2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -2.032)
+					(mid 0 -1.5262)
+					(end -0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 2.032)
+					(mid 1.016 1.5262)
+					(end 1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -2.032)
+					(mid 1.016 -1.5262)
+					(end 0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 2.032)
+					(mid 2.032 1.5262)
+					(end 2.54 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -2.032)
+					(mid 2.032 -1.5262)
+					(end 1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Filter_EMI_LL_1_1"
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Fuse_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -741,163 +1099,6 @@
 					(at 2.54 0 180)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:L"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2107,28 +2308,10 @@
 		(uuid "4d7ca4c5-5ca0-4525-a339-22511a601877")
 	)
 	(junction
-		(at 167.64 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58b2c539-77bb-4b24-ad33-cf9f33388c2a")
-	)
-	(junction
-		(at 195.58 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5dee9517-b6d7-4e18-9969-7526dac58248")
-	)
-	(junction
 		(at 147.32 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c7846fe-aa6a-4a5c-9fef-119f6a8b481c")
-	)
-	(junction
-		(at 195.58 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83e332f0-8f6b-455a-b6ef-4877b8575caf")
 	)
 	(junction
 		(at 64.77 66.04)
@@ -2141,6 +2324,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c296e939-045e-44bc-bfc9-4bdbcec67c60")
+	)
+	(junction
+		(at 173.99 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd93454b-99ab-4854-b24b-1e649fba65a4")
 	)
 	(junction
 		(at 130.81 96.52)
@@ -2270,16 +2459,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 111.76) (xy 173.99 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e875110-1913-4d96-81b6-cfada6c1057c")
-	)
-	(wire
-		(pts
 			(xy 93.98 106.68) (xy 107.95 106.68)
 		)
 		(stroke
@@ -2320,16 +2499,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 101.6) (xy 208.28 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4759e9a2-6728-4d95-8ece-14ac8613c94a")
-	)
-	(wire
-		(pts
 			(xy 173.99 95.25) (xy 160.02 95.25)
 		)
 		(stroke
@@ -2337,26 +2506,6 @@
 			(type default)
 		)
 		(uuid "493aef30-0234-4785-b4d4-c3984ee38260")
-	)
-	(wire
-		(pts
-			(xy 195.58 104.14) (xy 195.58 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f786b90-f75c-44b1-a948-4e02743ee672")
-	)
-	(wire
-		(pts
-			(xy 39.37 60.96) (xy 39.37 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58a663d3-5e1b-468d-9433-ade0e8cb8efb")
 	)
 	(wire
 		(pts
@@ -2390,26 +2539,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 111.76) (xy 167.64 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67e1a9bd-139d-4522-acaa-8b1d02bd709a")
-	)
-	(wire
-		(pts
-			(xy 208.28 101.6) (xy 208.28 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "714624ed-59bb-4aa4-b5f5-78857f06c6c3")
-	)
-	(wire
-		(pts
 			(xy 107.95 96.52) (xy 105.41 96.52)
 		)
 		(stroke
@@ -2430,16 +2559,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 101.6) (xy 203.2 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "752a6c9f-9f17-469a-b6ef-983c1baa6395")
-	)
-	(wire
-		(pts
 			(xy 64.77 50.8) (xy 81.28 50.8)
 		)
 		(stroke
@@ -2447,16 +2566,6 @@
 			(type default)
 		)
 		(uuid "80afd9e3-9e84-47c1-afe9-d1b6c7a40d39")
-	)
-	(wire
-		(pts
-			(xy 195.58 101.6) (xy 203.2 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "818e0021-b8d3-4800-893f-05ca2042694b")
 	)
 	(wire
 		(pts
@@ -2480,16 +2589,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 104.14) (xy 195.58 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a0704a6-c90f-4974-b6c5-022f7496db4b")
-	)
-	(wire
-		(pts
 			(xy 88.9 58.42) (xy 106.68 58.42)
 		)
 		(stroke
@@ -2510,33 +2609,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 111.76) (xy 153.67 111.76)
+			(xy 147.32 111.76) (xy 151.13 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b48c67c9-6ff6-4b1e-9246-3c7ab5de78d2")
-	)
-	(wire
-		(pts
-			(xy 203.2 106.68) (xy 223.52 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8f69047-f1f4-4818-bcea-8066c9877510")
-	)
-	(wire
-		(pts
-			(xy 195.58 101.6) (xy 195.58 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2b0cc07-e08f-4398-b4c9-f8777cd2ba3c")
 	)
 	(wire
 		(pts
@@ -2547,16 +2626,6 @@
 			(type default)
 		)
 		(uuid "cfc831ec-2b27-49c0-b05b-2add78a4622f")
-	)
-	(wire
-		(pts
-			(xy 39.37 55.88) (xy 39.37 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1fa06f-ce1d-4420-b59b-015decf79db1")
 	)
 	(wire
 		(pts
@@ -2577,6 +2646,16 @@
 			(type default)
 		)
 		(uuid "e845dbf4-e792-4c17-acce-f6647b6d7241")
+	)
+	(wire
+		(pts
+			(xy 161.29 111.76) (xy 173.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaaae2b9-bc8d-4958-8fb0-894fc46da5c3")
 	)
 	(wire
 		(pts
@@ -3013,6 +3092,15 @@
 				(hide yes)
 			)
 		)
+		(property "Order" "https://www.thegioiic.com/es1j-sma-diode-chinh-luu-1a-600v"
+			(at 138.43 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5fd5eed-ee05-41ef-93ed-2336e9e7d983")
 		)
@@ -3147,6 +3235,15 @@
 				(hide yes)
 			)
 		)
+		(property "Order" "https://id.aliexpress.com/i/1005006071957980.html?gatewayAdapt=glo2idn"
+			(at 176.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "c5e0d9dd-1850-4817-aa5e-6f941ec2594b")
 		)
@@ -3248,7 +3345,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 167.64 111.76 0)
+		(at 173.99 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3257,7 +3354,7 @@
 		(fields_autoplaced yes)
 		(uuid "38bd8ddc-f68a-449b-b058-0d84ce8c42bd")
 		(property "Reference" "#PWR013"
-			(at 167.64 118.11 0)
+			(at 173.99 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3363,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 167.64 116.84 0)
+			(at 173.99 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,7 +3371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 111.76 0)
+			(at 173.99 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 111.76 0)
+			(at 173.99 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,7 +3389,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 167.64 111.76 0)
+			(at 173.99 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,6 +3404,80 @@
 			(project ""
 				(path "/b7abe6f1-2551-4737-a387-998f044c6eba"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Filter_EMI_LL")
+		(at 156.21 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dfbae0e-9ac4-4ef5-8c24-cb46a2f9369a")
+		(property "Reference" "FL1"
+			(at 155.829 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Filter_EMI_LL"
+			(at 155.829 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_THT:L_CommonMode_Wuerth_WE-CMB-M"
+			(at 156.21 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EMI 2-inductor filter"
+			(at 156.21 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d8f3db6-6dc4-4b91-a12a-60977d626ff0")
+		)
+		(pin "3"
+			(uuid "f099ae62-e346-48c3-9607-31e9cfee92ee")
+		)
+		(pin "4"
+			(uuid "287d1894-b484-4dbd-a8e3-9bf25f6e3c0b")
+		)
+		(pin "2"
+			(uuid "a287a1d4-9881-470d-98e2-5aac82a266a3")
+		)
+		(instances
+			(project ""
+				(path "/b7abe6f1-2551-4737-a387-998f044c6eba"
+					(reference "FL1")
 					(unit 1)
 				)
 			)
@@ -3383,74 +3554,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 157.48 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6877363c-b51e-4c06-873e-22d94ce1bbf2")
-		(property "Reference" "L1"
-			(at 157.48 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1mH"
-			(at 157.48 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRF00101040"
-			(at 157.48 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 157.48 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9b0b886-e928-4be1-b6c0-e2d465d94805")
-		)
-		(pin "1"
-			(uuid "4c76576f-9051-4694-9e4f-3d4e6da25ed4")
-		)
-		(instances
-			(project ""
-				(path "/b7abe6f1-2551-4737-a387-998f044c6eba"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SI_Mosfet_BP2866:BP2866")
 		(at 101.6 115.57 0)
 		(unit 1)
@@ -3495,6 +3598,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://linhkienhatech.com/products/linh-kien-ic-driver-led-bp2866b-sop-7"
 			(at 101.6 115.57 0)
 			(effects
 				(font
@@ -3580,6 +3692,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 55.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://dientutuyetnga.com/products/tu-104-275v-0-1uf"
 			(at 55.88 54.61 0)
 			(effects
 				(font
@@ -3722,6 +3843,15 @@
 				(hide yes)
 			)
 		)
+		(property "Order" "https://www.thegioiic.com/mb10f-diode-cau-chinh-luu-1kv-0-5a"
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "310cfc77-c74f-4364-bc28-604fd0e58b1a")
 		)
@@ -3738,73 +3868,6 @@
 			(project ""
 				(path "/b7abe6f1-2551-4737-a387-998f044c6eba"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 36.83 60.96 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e9e74f4-a1e0-4156-ada1-dd8652d2f5d3")
-		(property "Reference" "H4"
-			(at 35.56 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 36.8299 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 36.83 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 36.83 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "4df1dee9-e9df-458a-b608-c16a98be16e9")
-		)
-		(instances
-			(project "si-hardware-downled"
-				(path "/b7abe6f1-2551-4737-a387-998f044c6eba"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3997,6 +4060,15 @@
 				(hide yes)
 			)
 		)
+		(property "Order" "https://dientutuyetnga.com/products/tu-hoa-4-7uf-250v"
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f1faeda-cd23-4666-97ba-f92804139937")
 		)
@@ -4067,6 +4139,15 @@
 				(hide yes)
 			)
 		)
+		(property "Order" "https://dientutuyetnga.com/products/dien-tro-27k-1206-1"
+			(at 160.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d036a625-af35-47a6-aa9b-5c6c5ac822a6")
 		)
@@ -4077,72 +4158,6 @@
 			(project "si-hardware-downled"
 				(path "/b7abe6f1-2551-4737-a387-998f044c6eba"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 223.52 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7cceb08-7b8e-4bc9-a604-f2e580c00765")
-		(property "Reference" "#PWR014"
-			(at 223.52 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 223.52 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 223.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b116c88d-8542-46bf-bc57-d7bf8551bbd8")
-		)
-		(instances
-			(project "si-hardware-downled"
-				(path "/b7abe6f1-2551-4737-a387-998f044c6eba"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4193,6 +4208,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://dientutuyetnga.com/products/dien-tro-330k-0805-1"
+			(at 167.64 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,6 +4286,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" "https://www.thegioiic.com/dien-tro-180-kohm-0805-1-"
 			(at 133.35 114.3 0)
 			(effects
 				(font
@@ -4356,6 +4389,15 @@
 				(hide yes)
 			)
 		)
+		(property "Order" "https://www.thegioiic.com/es1j-sma-diode-chinh-luu-1a-600v"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f8dfd743-4bf4-4da9-a69c-ff65eb7814a5")
 		)
@@ -4372,35 +4414,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 36.83 55.88 90)
+		(lib_id "power:VCC")
+		(at 151.13 116.84 90)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c03f19a6-0197-4079-aba7-3a42e1025e23")
-		(property "Reference" "H3"
-			(at 35.56 52.07 90)
+		(uuid "c1badf9f-e83c-4ee8-9be8-508f11e19593")
+		(property "Reference" "#PWR014"
+			(at 154.94 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 36.8299 53.34 0)
+		(property "Value" "VCC"
+			(at 147.32 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 36.83 55.88 0)
+		(property "Footprint" ""
+			(at 151.13 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,8 +4450,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 36.83 55.88 0)
+		(property "Datasheet" ""
+			(at 151.13 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,8 +4459,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 36.83 55.88 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 151.13 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,13 +4468,13 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
-			(uuid "6ce4ceba-2dc5-4fc2-8be9-87f7fce4132b")
+		(pin "1"
+			(uuid "fd2c3e96-2cba-47ae-8816-502b568972ca")
 		)
 		(instances
 			(project "si-hardware-downled"
 				(path "/b7abe6f1-2551-4737-a387-998f044c6eba"
-					(reference "H3")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4485,6 +4527,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://dientutuyetnga.com/products/dien-tro-27k-1206-1"
 			(at 160.02 80.01 0)
 			(effects
 				(font
@@ -4710,6 +4761,73 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 161.29 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efaaceed-a3a2-40c4-961f-597704301f7c")
+		(property "Reference" "#PWR016"
+			(at 157.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC1"
+			(at 165.1 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f42f79d-d0f1-4c7d-b52d-7ecc9fe8a004")
+		)
+		(instances
+			(project "si-hardware-downled"
+				(path "/b7abe6f1-2551-4737-a387-998f044c6eba"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 184.15 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4819,6 +4937,15 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
+			(at 48.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://dientutuyetnga.com/products/1808-cau-chi-500ma-250v"
 			(at 48.26 50.8 0)
 			(effects
 				(font
@@ -4955,6 +5082,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.thegioiic.com/dien-tro-15-kohm-1206-5-"
 			(at 93.98 110.49 0)
 			(effects
 				(font

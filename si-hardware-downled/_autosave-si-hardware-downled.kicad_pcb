@@ -140,6 +140,7 @@
 	(net 18 "Net-(J1-Pin_1)")
 	(net 19 "Net-(J2-Pin_2)")
 	(net 20 "Net-(J2-Pin_3)")
+	(net 21 "VCC1")
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "01624cd9-1401-4d96-83cf-41a7c3a63e35")
@@ -3182,6 +3183,251 @@
 			(uuid "1dc53460-58d8-4354-bef4-a15f3bcd315c")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Inductor_SMD:L_CommonModeChoke_Coilcraft_0603USB"
+		(layer "F.Cu")
+		(uuid "b735d88e-d863-406f-a748-36cbb02f2d8b")
+		(at 162.031 99.294)
+		(descr "Coilcraft 0603USB Series Common Mode Choke, https://www.coilcraft.com/pdfs/0603usb.pdf")
+		(tags "surface mount common mode bead")
+		(property "Reference" "FL1"
+			(at 0 1.7 0)
+			(layer "F.SilkS")
+			(uuid "7789f3aa-ab53-4d3d-bcac-e077d89ccad4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Filter_EMI_LL"
+			(at 0 -2.01 0)
+			(layer "F.Fab")
+			(uuid "b56f0e9d-1480-4699-876a-ec1373cc1cb7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_Coilcraft_0603USB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3cb6e55-3743-4569-857a-4f8593c5bb49")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c4eeb4e-86e0-49a8-a20a-ccaa50aa84c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "EMI 2-inductor filter"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b95991e-e927-46a9-847a-3fb4bf7a676d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "L_* L_CommonMode*")
+		(path "/3dfbae0e-9ac4-4ef5-8c24-cb46a2f9369a")
+		(sheetname "Root")
+		(sheetfile "si-hardware-downled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.63 -1.1)
+			(end -0.63 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ff5608a7-b281-44c4-b24d-0d4dc0aa9e62")
+		)
+		(fp_line
+			(start 0.63 0.8)
+			(end 0.63 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "90820f8b-485d-4fcd-b2c4-973be3c77706")
+		)
+		(fp_line
+			(start -0.68 -1.2)
+			(end 0.68 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "86241897-1abd-4680-8262-cace91d3b6a6")
+		)
+		(fp_line
+			(start -0.68 1.2)
+			(end -0.68 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d58bf5a9-dc87-4786-b89c-39e70937dd94")
+		)
+		(fp_line
+			(start -0.68 1.2)
+			(end 0.68 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9b28b1af-33cd-4721-8ede-02dc442fdf25")
+		)
+		(fp_line
+			(start 0.68 1.2)
+			(end 0.68 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b77b3919-34c4-43ee-84eb-897b27b31606")
+		)
+		(fp_line
+			(start -0.38 -0.58)
+			(end -0.38 0.76)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "588755e7-ba4a-4506-8f5a-b84c79327717")
+		)
+		(fp_line
+			(start -0.38 -0.58)
+			(end -0.2 -0.76)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7f080d2d-ab01-41d1-8841-f31c4a2b597d")
+		)
+		(fp_line
+			(start -0.38 0.76)
+			(end 0.38 0.76)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9ff2326b-9bc8-45bb-99f8-1f37b4c3f05f")
+		)
+		(fp_line
+			(start -0.2 -0.76)
+			(end 0.38 -0.76)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "84c40a61-a105-4137-9e96-dcd6012c2379")
+		)
+		(fp_line
+			(start 0.38 -0.76)
+			(end 0.38 0.76)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f365ec51-ad58-4803-b4ee-e69086371ad5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "f42c4c20-d652-4a9c-a9a6-b9542f08f3df")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.275 -0.655)
+			(size 0.3 0.58)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.05)
+			(net 6 "Net-(D2-A)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "e10c63bf-446f-4dbb-a766-24ed3524842f")
+		)
+		(pad "2" smd roundrect
+			(at -0.275 0.655)
+			(size 0.3 0.58)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.05)
+			(net 17 "GND1")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "192b1369-6677-4430-9151-6c205eee4d63")
+		)
+		(pad "3" smd roundrect
+			(at 0.275 0.655)
+			(size 0.3 0.58)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.05)
+			(net 5 "VCC")
+			(pinfunction "3")
+			(pintype "passive")
+			(uuid "e9467527-1288-4213-a548-c098ae833961")
+		)
+		(pad "4" smd roundrect
+			(at 0.275 -0.655)
+			(size 0.3 0.58)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.05)
+			(net 21 "VCC1")
+			(pinfunction "4")
+			(pintype "passive")
+			(uuid "5ee059ce-3a28-444b-9b5c-72636b1eb487")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonModeChoke_Coilcraft_0603USB.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
