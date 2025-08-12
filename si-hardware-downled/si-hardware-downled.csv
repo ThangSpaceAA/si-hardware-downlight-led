@@ -1,0 +1,14 @@
+Reference,Value,Datasheet,Footprint,S? L??ng,DNP,Orde,Order
+C1,0.1uF/250V,~,Capacitor_THT:C_Rect_L9.0mm_W3.4mm_P7.50mm_MKT,1,,,https://dientutuyetnga.com/products/tu-104-275v-0-1uf
+C2,4.7uF/400V,~,Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm,1,,,https://dientutuyetnga.com/products/tu-hoa-4-7uf-250v
+C3,22uF/400V,~,Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm,1,,,https://www.thegioiic.com/tu-hoa-22uf-400v-13x21mm-xuyen-lo
+D1,MB10F-13,~,CTS_Diode_SMD:DiodeBridge_MB10F-13,1,,,https://www.thegioiic.com/mb10f-diode-cau-chinh-luu-1kv-0-5a
+"D2,D3",ES1J/1A-600V,~,Diode_SMD:D_SMA,2,,,https://www.thegioiic.com/es1j-sma-diode-chinh-luu-1a-600v
+F1,500mA,~,Fuse:Fuse_1812_4532Metric,1,,,https://dientutuyetnga.com/products/1808-cau-chi-500ma-250v
+FL1,10mH,~,QSL_Filter:choke_4pin_7x8,1,,,https://www.thegioiic.com/cuon-cam-10mh-uu9-8-103
+R1,180K,~,Resistor_SMD:R_1206_3216Metric,1,,,https://www.thegioiic.com/dien-tro-180-kohm-0805-1-
+R2,15K,~,Resistor_SMD:R_1206_3216Metric,1,,,https://www.thegioiic.com/dien-tro-15-kohm-1206-5-
+R3,330K,~,Resistor_SMD:R_0805_2012Metric,1,,,https://dientutuyetnga.com/products/dien-tro-330k-0805-1
+"R4,R5",27K,~,Resistor_SMD:R_1206_3216Metric,2,,,https://dientutuyetnga.com/products/dien-tro-27k-1206-1
+U1,BP2866D,,SI_Mosfet_Buck:BP2866,1,,,https://linhkienhatech.com/products/linh-kien-ic-driver-led-bp2866b-sop-7
+U2,S4525S,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,1,,,https://id.aliexpress.com/i/1005006071957980.html?gatewayAdapt=glo2idn

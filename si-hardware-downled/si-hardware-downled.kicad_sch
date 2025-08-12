@@ -1236,6 +1236,284 @@
 				)
 			)
 		)
+		(symbol "Graphic:SYM_Radioactive_Large"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 2.413 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_Radioactive_Large"
+				(at 2.413 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.413 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.175 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Radioactive/radiation warning symbol, large"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "symbol logo radioactive radiation warning heat"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_Radioactive_Large_0_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 2.032) (xy 2.032 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.032) (xy 1.905 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 1.016) (xy 3.683 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.016) (xy 3.683 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 0) (xy 4.826 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.016) (xy 3.683 -2.032) (xy 4.191 -1.651) (xy 4.572 -1.016) (xy 4.699 -0.381) (xy 4.826 0)
+						(xy 3.556 0) (xy 3.556 -0.381) (xy 3.302 -0.762) (xy 3.048 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 0) (xy 1.27 -0.254) (xy 1.397 -0.508) (xy 1.651 -0.889) (xy 1.905 -1.016) (xy 1.397 -2.032)
+						(xy 1.016 -1.778) (xy 0.635 -1.397) (xy 0.254 -0.889) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 1.016) (xy 1.397 1.905) (xy 1.143 2.032) (xy 1.778 2.286) (xy 2.667 2.159) (xy 3.048 2.159)
+						(xy 3.175 2.032) (xy 3.556 1.905) (xy 2.921 1.016) (xy 2.54 1.143) (xy 2.286 1.143) (xy 2.032 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.419 -1.2071)
+					(end 1.397 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 1.4524 -0.587)
+					(end 1.905 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.413 0)
+					(radius 0.8128)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 2.921 1.016)
+					(mid 2.4757 1.104)
+					(end 2.032 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.048 -1.016)
+					(mid 3.4219 -0.568)
+					(end 3.556 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.683 -2.032)
+					(mid 4.5507 -1.1815)
+					(end 4.826 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.683 2.032)
+					(mid 2.413 2.3778)
+					(end 1.143 2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SYM_Radioactive_Large_0_1"
+				(polyline
+					(pts
+						(xy -2.667 -3.048) (xy 7.493 -3.048) (xy 2.413 5.842) (xy -2.667 -3.048)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad_MP"
 			(pin_numbers hide)
 			(pin_names
@@ -2342,10 +2620,6 @@
 		(uuid "1651a283-aa76-4382-8059-1105c1b634ac")
 	)
 	(no_connect
-		(at 39.37 58.42)
-		(uuid "58842708-03f9-4ecf-9a7e-93980efd3473")
-	)
-	(no_connect
 		(at 63.5 36.83)
 		(uuid "ee6ef779-1a10-418e-9d58-3eaf7ed625f7")
 	)
@@ -3007,6 +3281,15 @@
 				(hide yes)
 			)
 		)
+		(property "Orde" ""
+			(at 63.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "MP"
 			(uuid "90931cc9-97a0-4d10-8f7f-a0981080f6a6")
 		)
@@ -3014,6 +3297,72 @@
 			(project "si-hardware-downled"
 				(path "/b7abe6f1-2551-4737-a387-998f044c6eba"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 184.15 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c142d20-9802-40de-9ac2-a624bc2509dd")
+		(property "Reference" "#PWR09"
+			(at 184.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC1"
+			(at 184.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cdd5b3d-09e7-4a85-99b8-9295872327c8")
+		)
+		(instances
+			(project "si-hardware-downled"
+				(path "/b7abe6f1-2551-4737-a387-998f044c6eba"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3094,6 +3443,15 @@
 		)
 		(property "Order" "https://www.thegioiic.com/es1j-sma-diode-chinh-luu-1a-600v"
 			(at 138.43 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" ""
+			(at 138.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,6 +3602,15 @@
 				(hide yes)
 			)
 		)
+		(property "Orde" ""
+			(at 176.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "c5e0d9dd-1850-4817-aa5e-6f941ec2594b")
 		)
@@ -3344,6 +3711,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Graphic:SYM_Radioactive_Large")
+		(at 212.09 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3059ea97-7753-4321-9829-8c58fd55ceb8")
+		(property "Reference" "#SYM1"
+			(at 214.503 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Radioactive_Large"
+			(at 214.503 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:ESD-Logo_6.6x6mm_SilkScreen"
+			(at 214.503 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.265 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Radioactive/radiation warning symbol, large"
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/b7abe6f1-2551-4737-a387-998f044c6eba"
+					(reference "#SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 173.99 111.76 0)
 		(unit 1)
@@ -3427,7 +3867,7 @@
 				)
 			)
 		)
-		(property "Value" "Filter_EMI_LL"
+		(property "Value" "10mH"
 			(at 155.829 109.22 0)
 			(effects
 				(font
@@ -3435,7 +3875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_CommonMode_Wuerth_WE-CMB-M"
+		(property "Footprint" "QSL_Filter:choke_4pin_7x8"
 			(at 156.21 113.284 0)
 			(effects
 				(font
@@ -3454,6 +3894,24 @@
 			)
 		)
 		(property "Description" "EMI 2-inductor filter"
+			(at 156.21 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.thegioiic.com/cuon-cam-10mh-uu9-8-103"
+			(at 156.21 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" ""
 			(at 156.21 114.3 0)
 			(effects
 				(font
@@ -3511,7 +3969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
 			(at 185.1152 78.74 0)
 			(effects
 				(font
@@ -3530,6 +3988,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 184.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" "https://www.thegioiic.com/tu-hoa-22uf-400v-13x21mm-xuyen-lo"
+			(at 184.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" ""
 			(at 184.15 74.93 0)
 			(effects
 				(font
@@ -3607,6 +4083,15 @@
 			)
 		)
 		(property "Order" "https://linhkienhatech.com/products/linh-kien-ic-driver-led-bp2866b-sop-7"
+			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" ""
 			(at 101.6 115.57 0)
 			(effects
 				(font
@@ -3701,6 +4186,15 @@
 			)
 		)
 		(property "Order" "https://dientutuyetnga.com/products/tu-104-275v-0-1uf"
+			(at 55.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" ""
 			(at 55.88 54.61 0)
 			(effects
 				(font
@@ -3844,6 +4338,15 @@
 			)
 		)
 		(property "Order" "https://www.thegioiic.com/mb10f-diode-cau-chinh-luu-1kv-0-5a"
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" ""
 			(at 81.28 58.42 0)
 			(effects
 				(font
@@ -4033,7 +4536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
 			(at 107.6452 66.04 0)
 			(effects
 				(font
@@ -4061,6 +4564,15 @@
 			)
 		)
 		(property "Order" "https://dientutuyetnga.com/products/tu-hoa-4-7uf-250v"
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" ""
 			(at 106.68 62.23 0)
 			(effects
 				(font
@@ -4148,6 +4660,15 @@
 				(hide yes)
 			)
 		)
+		(property "Orde" ""
+			(at 160.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d036a625-af35-47a6-aa9b-5c6c5ac822a6")
 		)
@@ -4217,6 +4738,15 @@
 		)
 		(property "Order" "https://dientutuyetnga.com/products/dien-tro-330k-0805-1"
 			(at 167.64 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" ""
+			(at 167.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4824,16 @@
 				(hide yes)
 			)
 		)
-		(property "Orde" "https://www.thegioiic.com/dien-tro-180-kohm-0805-1-"
+		(property "Order" "https://www.thegioiic.com/dien-tro-180-kohm-0805-1-"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" ""
 			(at 133.35 114.3 0)
 			(effects
 				(font
@@ -4390,6 +4929,15 @@
 			)
 		)
 		(property "Order" "https://www.thegioiic.com/es1j-sma-diode-chinh-luu-1a-600v"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" ""
 			(at 127 58.42 0)
 			(effects
 				(font
@@ -4536,6 +5084,15 @@
 			)
 		)
 		(property "Order" "https://dientutuyetnga.com/products/dien-tro-27k-1206-1"
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" ""
 			(at 160.02 80.01 0)
 			(effects
 				(font
@@ -4747,6 +5304,15 @@
 				(hide yes)
 			)
 		)
+		(property "Orde" ""
+			(at 49.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "MP"
 			(uuid "c8ec5985-5c3d-42ab-9cc2-363882e6b9d5")
 		)
@@ -4827,72 +5393,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 184.15 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1deac1c-81d8-4dc1-99d2-f225e5a8bfbc")
-		(property "Reference" "#PWR09"
-			(at 184.15 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 184.15 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 184.15 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d3171ec-b8a6-46ff-8271-ffa101a98922")
-		)
-		(instances
-			(project "si-hardware-downled"
-				(path "/b7abe6f1-2551-4737-a387-998f044c6eba"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 48.26 50.8 0)
 		(unit 1)
@@ -4946,6 +5446,15 @@
 			)
 		)
 		(property "Order" "https://dientutuyetnga.com/products/1808-cau-chi-500ma-250v"
+			(at 48.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" ""
 			(at 48.26 50.8 0)
 			(effects
 				(font
@@ -5091,6 +5600,15 @@
 			)
 		)
 		(property "Order" "https://www.thegioiic.com/dien-tro-15-kohm-1206-5-"
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Orde" ""
 			(at 93.98 110.49 0)
 			(effects
 				(font

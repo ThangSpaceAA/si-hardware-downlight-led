@@ -63,4 +63,5 @@
   (lib (name "SL_Bat")(type "KiCad")(uri "D:/THANGNM/3.PROJECT-KICAD/si-hardware-downlight-led/si-hardware-kicad-libraries/footprints/SL_Bat.pretty")(options "")(descr ""))
   (lib (name "SL_Hole")(type "KiCad")(uri "D:/THANGNM/3.PROJECT-KICAD/si-hardware-downlight-led/si-hardware-kicad-libraries/footprints/SL_Hole.pretty")(options "")(descr ""))
   (lib (name "SI_Mosfet_Buck")(type "KiCad")(uri "D:/THANGNM/3.PROJECT-KICAD/si-hardware-downlight-led/si-hardware-kicad-libraries/footprints/SI_Mosfet_Buck.pretty")(options "")(descr ""))
+  (lib (name "QSL_Filter")(type "KiCad")(uri "D:/THANGNM/3.PROJECT-KICAD/si-hardware-downlight-led/si-hardware-kicad-libraries/footprints/QSL_Filter.pretty")(options "")(descr ""))
 )
